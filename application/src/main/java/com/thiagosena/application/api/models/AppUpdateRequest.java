@@ -1,0 +1,11 @@
+package com.thiagosena.application.api.models;
+
+import javax.validation.constraints.NotBlank;
+
+public record AppUpdateRequest(
+        @NotBlank
+        String name,
+        @NotBlank
+        String address
+) {
+}
