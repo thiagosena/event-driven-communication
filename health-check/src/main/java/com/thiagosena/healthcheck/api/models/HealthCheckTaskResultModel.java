@@ -25,6 +25,7 @@ public record HealthCheckTaskResultModel(
                 .appId(result.app().id())
                 .createdAt(result.createdAt())
                 .checkConfig(HealthCheckConfigModel.of(result.checkConfig()))
+                .status(result.status())
                 .responseTime(result.responseTime())
                 .build();
     }
