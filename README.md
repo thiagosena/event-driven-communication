@@ -141,3 +141,9 @@ curl --location --request GET 'http://localhost:8085/v1/metrics'
 ```shell
 curl --location --request GET 'http://localhost:8085/v1/metrics/events'
 ```
+
+## 🗼 Architecture
+
+<p align="center">
+  <img width="800" src="doc/architecture.png" alt="Arch" />
+</p>
